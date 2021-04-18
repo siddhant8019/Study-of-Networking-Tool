@@ -1,0 +1,49 @@
+
+Assignment No 9: 
+Case Study of existing College network with IP Address Scheme 
+(Study the Networking Tool).
+
+About Software:
+It is a network-neutral solution that can be used to manage desktops in Active Directory, Workgroups, or other directories services-based network like Novell(R) eDirectory. It can manage computers in multiple domains and can also manage computers across WAN (branch offices) while keeping a check on bandwidth too.
+An SNMP-based network monitor that has great network topology layout options, all based on an autodiscovery process. Installs on Windows Server and Linux.
+SNMP stands for Simple etwork Management Protocol. SNMP is a framework used for managing devices on the internet.
+
+
+Description of the Software:
+So firstly download ManageEngine op manager it would be around 90 Mb then run it configure the path and let it take some minutes to execute, then there will page asking for a webserver port, let it be as it is. 
+Then click on Next if you want the Technical registration you can go for it or just skip it. 
+Then Select the backend Database for OpManager will be displayed containing the two options POSTGRESQL and MYSQL. We will go for POSTGRESQL as it would be fast to run it and it requires less information to run.
+And if we choose MySql it would require hostname port number username and password of MySql Server.
+Then on clicking next it gets on a site but it takes some time. 
+In between, we will get notifications of the server getting off and ON. 
+Then after the site has loaded completely we would get 5 different tabs Discover Device, Add Monitors, Configure Alerts, Visualize and Generate reports. Click ESC.
+ 
+ 
+The dashboard bar will give an overall description of system performance: 
+In overview Infrastructure Snapshot will contain different names such as server routers switches desktop firewall and many more, alarms devices and problematic devices w.r.t to names. 
+Then on clicking on the server we certainly get two devices one which has clear status and another one would have trouble. 
+The cleared one is a DNS protocol under the category server. 
+On clicking the IP address we would get additional details regarding that.
+
+
+Why to use ManageEngine OPManager?
+1.	Start monitoring your network within minutes of installation.
+2.	Visualize your network based on type or logical groups.	
+3.	Network Maps, category-wise Device Maps and List views provide quick visibility into a network or device level outage.
+4.	OpManager leverages industry standard protocols for monitoring such as SNMP, WMI, CLI, NetFlow, sFlow, IP SLA, etc.
+5.	Integration with the helpdesk Software, ServiceDesk Plus, enables trouble ticketing, define customer SLAs etc.
+6.	Integration with the bandwidth monitoring tool, NetFlow Analyzer, provides in-depth traffic reports.
+7.	ManageEngine OpManager is a comprehensive network monitoring software that provides network administrators with an integrated console for managing routers, firewalls, servers, switches, and printers.
+
+
+How to use OpManager?
+
+Firstly, add Credentials: 
+Then in Discovery in CSV File import add an csv file for data analysis and add all the credentials added.
+So, after Saving and Executing this is the window been displayed in Inventory.
+On clicking any of the interface we would be able to see.
+
+So, there are four types of monitors.
+So now in Setting we will add Mail Server.
+
+In Configuration bar, in Notification tab we would be adding a notification profile so that we would be receiving mails regarding ALERT or Critical cases.
